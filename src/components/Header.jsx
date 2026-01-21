@@ -1,12 +1,11 @@
 import { Award } from "lucide-react";
-import React from "react";
 
 const Header = ({ milestone }) => {
   return (
     <div className="flex flex-col md:flex-row justify-between items-end mb-10 border-b border-white/10 pb-6">
       <div>
         <h1 className="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-indigo-300 via-purple-300 to-pink-300 tracking-tight mb-2">
-          150-Day Journey
+          Fundamental Forge
         </h1>
         <p className="text-slate-400 text-lg">
           Random daily revision for interview mastery
